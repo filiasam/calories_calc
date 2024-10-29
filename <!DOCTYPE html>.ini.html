@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Υπολογιστής Θερμιδικής Πρόσληψης</title>
+</head>
+<body>
+    <h1>Υπολογιστής Θερμιδικής Πρόσληψης</h1>
+    <form method="POST">
+        <label for="weight">Βάρος (kg):</label>
+        <input type="text" name="weight" required><br>
+
+        <label for="height">Ύψος (cm):</label>
+        <input type="text" name="height" required><br>
+
+        <label for="activity_level">Επίπεδο Δραστηριότητας (0-10):</label>
+        <input type="text" name="activity_level" required><br>
+
+        <label for="goal">Στόχος:</label>
+        <select name="goal" required>
+            <option value="Lose weight">Lose weight</option>
+            <option value="Maintain">Maintain</option>
+            <option value="Gain weight">Gain weight</option>
+        </select><br>
+
+        <label for="sex">Φύλο:</label>
+        <select name="sex" required>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+        </select><br>
+
+        <label for="age">Ηλικία (years):</label>
+        <input type="text" name="age" required><br>
+
+        <input type="submit" value="Υπολογισμός">
+    </form>
+</body>
+</html>
